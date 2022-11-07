@@ -1,3 +1,5 @@
+package lecture01;
+
 public class kadai13 {
     public static void main(String[] args) {
         int age =20;
