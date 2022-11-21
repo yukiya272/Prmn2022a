@@ -14,7 +14,10 @@ public class Car {
     void run() {
         if (fuel <= 0) {
             System.out.println("燃料が足りないため走れませんでした。");
-        } else System.out.println("燃料を1消費して走りました。");
+        } else {
+            System.out.println("燃料を1消費して走りました。");
+            fuel -= 1;
+        }
     }
 
     void startEngine(){
